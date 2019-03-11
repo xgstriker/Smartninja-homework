@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Courgette|Roboto+Condensed');
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: royalblue;
+}
+
+h1 {
+    position: relative;
+    margin: 10px 15px;
+    color: #f0f0f0;
+    font-family: "Comfortaa";
+    font-size: 30px;
+    border-bottom: solid 2px #f0f0f0;
+}
+
+#search {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 15px;
+    right: 15px;
+}
+    p {
+        position: relative;
+        width: 50px;
+        color: #f0f0f0;
+        font-family: "Roboto Condensed";
+        font-size: 15px;
+        line-height: 22px;
+        text-transform: uppercase;
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    #search-lang {
+        position: absolute;
+        width: 110px;
+        background-color: #fcfcfc;
+        margin: 0 0 0 10px;
+        float: left;
+        border: solid 2px #fff;
+        border-radius: 5px;
+    }
+
+h2 {
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50% , 0);
+    color: #f0f0f0;
+    font-family: "Comfortaa";
+    font-size: 20px;
+}
+#avatar {
+    position: absolute;
+    width: 370px;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50% , 0);
+    border-radius: 185px;
+}
+#friend {
+    position: absolute;
+    top: 335px;
+    left: 50%;
+    transform: translate(-50% , 0);
+    color: #f0f0f0;
+    font-family: "Comfortaa";
+    font-size: 12px;
+    background-color: #264BCA;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50% , 0);
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+li {
+    position: relative;
+    margin: 15px;
+    color: #f0f0f0;
+    font-family: "Comfortaa";
+    font-size: 12px;
+    line-height: 20px;
+}
+strong {
+    text-transform: uppercase;
+    border-bottom: solid 2px #fcfcfc;
+}
