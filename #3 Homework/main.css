@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Courgette|Roboto+Condensed');
+
+body {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+
+.nav {
+	position: relative;
+	height: 50px;
+	background-color: royalblue;
+	width: auto;
+	z-index: 9999;
+}
+	.nav button {
+		position: relative;
+		width: 75px;
+		margin: 0 10px;
+		padding: 5px;
+		top: 50%;
+		transform: translate(0, -50%);
+		left: 50px;
+		border: none;
+		border-radius: 5px;
+		background-color: darkblue;
+		color: lightblue;
+		font-family: arial;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+	#title {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 25px;
+		font-family: courgette;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: lightblue;
+	}
+	.nav input {
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		transform: translate(0, -50%);
+		padding: 5px;
+		border: none;
+		border-radius: 5px;
+		background-color: darkblue;
+		color: lightblue;
+		font-family: arial;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+
+#help {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	background-color: royalblue;
+	color: lightblue;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 40px;
+}
+#friends {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 90px;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	background-color: royalblue;
+	color: lightblue;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 40px;
+}
+
+.left {
+	position: relative;
+	top: -2px;
+	width: 25%;
+	margin: 0;
+	padding: 2% 2%;
+	height: 2500px;
+	float: left;
+}
+	.left ul {
+		position: relative;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+
+	}
+		.left ul li {
+			display: block;
+			position: relative;
+			padding: 5px 10px;
+			margin: 10px;  
+			background-color: royalblue;
+			color: #f0f0f0;
+			border-radius: 15px;
+			transition: background .3s;
+			cursor: pointer;
+			font-family: comfortaa;
+			font-size: 15px;
+		}
+		.left ul li:hover {
+			background-color: #2446BD;
+		}
+
+.main {
+	width: 45%;
+	position: relative;
+	top: -2px;
+	margin: 0;
+	padding: 2% 2%;
+	height: 2500px;
+	float: left;
+	z-index: 2;
+}
+	.main ul {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+		.main ul li {
+			position: relative;
+			top: 20px;
+			width: 80%;
+			height: 150px;
+			left: 50%;
+			transform: translate(-50%, 0);
+			background-color: royalblue;
+			border-radius: 20px;
+			transition: background .3s;
+			margin: 1%;
+		}
+		.main ul li:hover {
+			background-color: #2446BD;
+		}
+
+
+.right {
+	width: 17.25%;
+	position: relative;
+	top: -2px;
+	margin: 0;
+	padding: 2% 2%;
+	height: 2500px;
+	float: left;
+}
+	.right ul {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+		.right ul li {
+			position: relative;
+			top: 10px;
+			width: 50px;
+			height: 50px;
+			left: 40px;
+			background-color: royalblue;
+			border-radius: 25px;
+			transition: background .3s;
+			margin: 1%;
+			float: left;
+		}
+		.right ul li:hover {
+			background-color: #2446BD;
+		}
+
+.border {
+	border: solid 2px #496BDD; 
+}
